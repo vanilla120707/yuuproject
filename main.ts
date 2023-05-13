@@ -14,10 +14,9 @@ input.onGesture(Gesture.TiltRight, function () {
     y += 1
     led.unplot(x - 1, y)
 })
-let y = 0
 let x = 0
-x = 2
-y = 2
+let y = 0
+basic.showString("Let's play!")
 basic.forever(function () {
     if (y < 0) {
         y = 4
